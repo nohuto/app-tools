@@ -1,4 +1,5 @@
-﻿# Wallpaper Engine Debloat
+﻿
+# Wallpaper Engine Debloat
 
 There's no actual use case for it, I created it for whatever reason.
 

@@ -1,4 +1,5 @@
-﻿# LGHUB Switcher
+﻿
+# LGHUB Switcher
 
 Simple script which enables/disables the `LGHUBUpdaterService` service and other related ones. If you use the LG Hub software just for your mouse, use [onboard memory manager](https://support.logi.com/hc/en-us/articles/360059641133-Onboard-Memory-Manager) instead.
 

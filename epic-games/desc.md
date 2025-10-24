@@ -1,6 +1,6 @@
 ﻿
 # Epic Games Clean-Up
-⠀
+
 | Option       | Description                                       |
 | ------------ | ------------------------------------------------- |
 | **Clean up** | Removes logs, cache files, and crash report files.|

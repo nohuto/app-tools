@@ -1,4 +1,5 @@
-﻿# Thorium Tool
+﻿
+# Thorium Tool
 
 Thorium has already many files removed & settings applied, this tool will remove the last few files, which aren't needed for browsing.
 
