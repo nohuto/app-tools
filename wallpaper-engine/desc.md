@@ -6,7 +6,7 @@ There's no actual use case for it, I created it for whatever reason.
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | **Debloat** | It's kind of useless since Steam redownloads most of them on startup.<br>- Removes language packs, backups, logs, and more |
 
-# <:steam:1246209740489625753>  In-App Settings
+# In-App Settings
 
 Quality settings are personal preferences, as WE won't run anyway if not focused.
 
