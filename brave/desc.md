@@ -8,12 +8,12 @@
 
 TUI Preview:
 
-![](https://github.com/5Noxi/app-tools/blob/main/brave/media/bravetui.png)
+![](https://github.com/5Noxi/app-tools/blob/main/brave/media/bravetui.png?raw=true)
 
 # In-App Settings
 
-![](https://github.com/5Noxi/app-tools/blob/main/brave/media/br1.png)
-![](https://github.com/5Noxi/app-tools/blob/main/brave/media/br2.png)
+![](https://github.com/5Noxi/app-tools/blob/main/brave/media/br1.png?raw=true)
+![](https://github.com/5Noxi/app-tools/blob/main/brave/media/br2.png?raw=true)
 
 uBlock Origin Filters:
 - https://github.com/yokoffing/filterlists
