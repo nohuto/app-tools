@@ -1,5 +1,4 @@
-﻿
-# Ungoogled Chromium Tool
+﻿# Ungoogled Chromium Tool
 
 It only debloats the installation a bit, for proper setup use the info below. Optionally you can use the debloater/clean up. Personal recommendation: switch to [Thorium](https://github.com/Alex313031/Thorium-Win/releases)/[Brave](https://brave.com/download/).
 

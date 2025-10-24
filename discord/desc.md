@@ -1,5 +1,4 @@
-﻿
-# Discord Tool
+﻿# Discord Tool
 
 | Option      |        Description     |      Details         |
 | ------------------ | ------------------ | ------------------ |

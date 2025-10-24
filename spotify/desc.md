@@ -1,5 +1,4 @@
-﻿
-# Spotify Tool
+﻿# Spotify Tool
 
 Preview: https://youtu.be/F2rBejbYIsE
 

@@ -1,5 +1,4 @@
-﻿
-# Epic Games Clean-Up
+﻿# Epic Games Clean-Up
 
 | Option       | Description                                       |
 | ------------ | ------------------------------------------------- |

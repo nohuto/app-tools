@@ -1,12 +1,11 @@
-﻿
-# Steam Tool
+﻿# Steam Tool
 
 | Option                                                                                 | Description                                                                                                                                                                                                            |
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Clean up**                                                                           | - Removes files *(logs, cache files...)*                                                                                                                                                                               |
+| **Clean up**                                                                           | Removes files *(logs, cache files...)*                                                                                                                                                                               |
 | **Startup with parameters**                                                            | - Lets you create a batch<br> - Set the Start Up Location to `Libary`<br> - Disables features and reduces usage                                                                                                        |
 | **Disable [Chromium Embedded Framework](https://github.com/Aetopia/NoSteamWebHelper)** | - Automatically toggles the CEF depending if a game is running or not<br> - There will also be '**Steam WebHelper**' in your taskbar, which lets you toggle it manually<br> With CEF:<br>![](https://github.com/5Noxi/app-tools/blob/main/steam/media/cef.png?raw=true)<br> Without CEF:<br>![](https://github.com/5Noxi/app-tools/blob/main/steam/media/cefoff.png?raw=true) |
-| **Registry Values**                                                                    | - Adds some registry values, which are read (Interface settings)                                                                                                                                                       |
+| **Registry Values**                                                                    | Adds some registry values, which are read (Interface settings)                                                                                                                                                       |
 
 Command line options for games/steam:
 - https://developer.valvesoftware.com/wiki/Command_line_options#Steam_.28Windows.29
@@ -108,4 +107,4 @@ Options don't exist by default, like:
     "DisableToastsInGame"        "1"
 ```
 
-> https://developer.valvesoftware.com/wiki/KeyValues
+- https://developer.valvesoftware.com/wiki/KeyValues
