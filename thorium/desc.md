@@ -14,24 +14,24 @@ Thorium has already many files removed & settings applied, this tool will remove
 ![](https://github.com/5Noxi/app-tools/blob/main/thorium/media/tho2.png?raw=true)
 
 uBlock Origin Filters:
-- https://github.com/yokoffing/filterlists
-- https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869
-- https://filterlists.com/
+> https://github.com/yokoffing/filterlists  
+> https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869  
+> https://filterlists.com/  
 
 Further extensions you may want:
-- https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)
-- https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`!
-- https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+> https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)  
+> https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`)  
+> https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh  
 
 # Flags - Privacy, Security & Performance
 
 You could also add command lines, instead of applying some of them via `chrome://flags`, but you won't see the changes if the command line is also available in `chrome://flags`. Verify them by entering `chrome://version` and looking into the '**Command Line**' section, you should see all commands, which are currently used there. Command flags can be found [here](https://github.com/Alex313031/thorium/blob/main/docs/CMDLINE_FLAGS_LIST.md).
 
 More CLI flags (add them to the shortcut):
-> https://github.com/Alex313031/Thorium/wiki/List-of-Commandline-Flags
+> https://github.com/Alex313031/Thorium/wiki/List-of-Commandline-Flags  
 
 Thorium already has a lot of flags applied by default - the current ones are listed [here](https://github.com/Alex313031/thorium/blob/main/docs/PATCHES.md). You want to know more about thorium, e.g. how to build it yourself?
-> https://github.com/Alex313031/thorium/tree/main/docs
+> https://github.com/Alex313031/thorium/tree/main/docs  
 
 The following are flags, which can be changed, by opening `chrome://flags` and pasting the name into the search bar. Some are personal preference, some may disable features, which you want, so read the desc of the flag, before changing it. (I collected them with brave, so some may not exist in thorium)
 

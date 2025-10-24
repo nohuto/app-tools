@@ -8,8 +8,8 @@
 | **Registry Values**                                                                    | Adds some registry values, which are read (Interface settings)                                                                                                                                                       |
 
 Command line options for games/steam:
-- https://developer.valvesoftware.com/wiki/Command_line_options#Steam_.28Windows.29
-- [Command Lines Options Excel Sheet](https://github.com/5Noxi/app-tools/blob/main/steam/files/Steam-Commands.xlsx)
+> https://developer.valvesoftware.com/wiki/Command_line_options#Steam_.28Windows.29  
+> [Command Lines Options Excel Sheet](https://github.com/5Noxi/app-tools/blob/main/steam/files/Steam-Commands.xlsx)  
 
 All values steam reads on startup (`HKCU\Software\Valve\Steam`):
 ```c
@@ -107,4 +107,4 @@ Options don't exist by default, like:
     "DisableToastsInGame"        "1"
 ```
 
-- https://developer.valvesoftware.com/wiki/KeyValues
+> https://developer.valvesoftware.com/wiki/KeyValues  

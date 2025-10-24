@@ -5,10 +5,10 @@
 | **Clean up** | Removes logs, cache files, and crash report files.|
 
 Epic Games Launcher alternative:
-> https://github.com/derrod/legendary ([*](https://github.com/RareDevs/Rare))
+> https://github.com/derrod/legendary ([*](https://github.com/RareDevs/Rare))  
 
 CL Arguments (UE):
-> https://dev.epicgames.com/documentation/en-us/unreal-engine/command-line-arguments-in-unreal-engine
+> https://dev.epicgames.com/documentation/en-us/unreal-engine/command-line-arguments-in-unreal-engine  
 
 Create your own launcher terminator - example using `FortniteClient-Win64-Shipping` (included in the [Fortnite Tool](https://github.com/5Noxi/game-tools/blob/main/fortnite/NV-Fortnite-Tool.ps1)):
 ```ps

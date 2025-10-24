@@ -20,14 +20,14 @@ To be able to install extensions, do the following:
 2. Then click on the latest `Chromium.Web.Store.crx` link on the [extension's releases page](https://github.com/NeverDecaf/chromium-web-store/releases)
 
 uBlock Origin Filters:
-- https://github.com/yokoffing/filterlists
-- https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869
-- https://filterlists.com/
+> https://github.com/yokoffing/filterlists  
+> https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869  
+> https://filterlists.com/  
 
 Further extensions you may want:
-- https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)
-- https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`!
-- https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+> https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)  
+> https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`)  
+> https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh  
 
 #  Flags - Privacy, Security & Performance
 

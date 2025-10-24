@@ -16,14 +16,14 @@ TUI Preview:
 ![](https://github.com/5Noxi/app-tools/blob/main/brave/media/br2.png?raw=true)
 
 uBlock Origin Filters:
-- https://github.com/yokoffing/filterlists
-- https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869
-- https://filterlists.com/
+> https://github.com/yokoffing/filterlists  
+> https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869  
+> https://filterlists.com/  
 
 Further extensions you may want:
-- https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)
-- https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`!
-- https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+> https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)  
+> https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`) 
+> https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh  
 
 
 # Flags - Privacy, Security & Performance
@@ -31,7 +31,7 @@ Further extensions you may want:
 You could also add command lines, instead of applying some of them via `brave://flags`, but you won't see the changes if the command line is also available in `brave://flags`. Verify them by entering `brave://version` and looking into the '**Command Line**' section, you should see all commands, which are currently used there.
 
 How do I use command line flags in Brave?
-- https://support.brave.com/hc/en-us/articles/360044860011-How-Do-I-Use-Command-Line-Flags-in-Brave
+> https://support.brave.com/hc/en-us/articles/360044860011-How-Do-I-Use-Command-Line-Flags-in-Brave  
 
 The following are flags, which can be changed, by opening `brave://flags` and pasting the name into the search bar. Some are personal preference, some may disable features, which you want, so read the desc of the flag, before changing it.
 
