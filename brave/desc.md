@@ -1,6 +1,6 @@
 ﻿# Brave Tool
 
-`Debloat`
+- **Debloat**
   - Removes crash handler, language packs, event log files (some are optional) and older brave versions
 - **Disable Tasks/Services**
   - Disables scheduled tasks and services
