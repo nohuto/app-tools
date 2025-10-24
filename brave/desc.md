@@ -28,7 +28,7 @@ Further extensions you may want:
 
 # Flags - Privacy, Security & Performance
 
-You could also add command lines, instead of applying some of them via `brave://flags`, but you won't see the changes if the command line is also available in `brave://flags`! Verify them by entering `brave://version` and looking into the '**Command Line**' section, you should see all commands, which are currently used there.
+You could also add command lines, instead of applying some of them via `brave://flags`, but you won't see the changes if the command line is also available in `brave://flags`. Verify them by entering `brave://version` and looking into the '**Command Line**' section, you should see all commands, which are currently used there.
 
 How do I use command line flags in Brave?
 - https://support.brave.com/hc/en-us/articles/360044860011-How-Do-I-Use-Command-Line-Flags-in-Brave
@@ -91,3 +91,4 @@ The following are flags, which also can be useful, but youll have to test them y
 | `username-first-flow-with-intermediate-values-voting`      | Support voting on username first flow with intermediate values. Username first flow is login/sign-up flow where a user has to type username first on one page and then password on another page. Intermediate fields are usually an OTP field or CAPTCHA                                                             | Disabled                   |
 | `web-share`                                                | Enables the Web Share (navigator.share) APIs on experimentally supported platforms                                                                                                                                                                                                                                   | Disabled                   |
 | `enable-waitable-swap-chain`                               | Use waitable swap chains to reduce presentation latency (effective only on Windows 8.1 or later). If enabled, specify the maximum number of frames that can be queued, ranging from 1–3. 1 has the lowest delay but is most likely to drop frames, while 3 has the highest delay but is least likely to drop frames. | Enabled Max 2 Frame |
+

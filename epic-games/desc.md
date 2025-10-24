@@ -28,6 +28,8 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\EpicOnlineServices" /v Start /t 
 
 ![](https://github.com/5Noxi/app-tools/blob/main/epic-games/media/epic.png?raw=true)
 
+---
+
 Miscellaneous notes (ingore them).
 
 ```ini
