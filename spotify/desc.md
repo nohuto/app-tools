@@ -1,6 +1,7 @@
 ﻿# Spotify Tool
 
-Preview: https://youtu.be/F2rBejbYIsE
+Preview: 
+> https://youtu.be/F2rBejbYIsE
 
 | Option              | Description |
 | ------------------- | ----------- |
