@@ -23,7 +23,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\EpicGamesUpdater" /v Start /t RE
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\EpicOnlineServices" /v Start /t REG_DWORD /d 4 /f
 ```
 
-# In-App Settings
+## In-App Settings
 
 ![](https://github.com/5Noxi/app-tools/blob/main/epic-games/media/epic.png?raw=true)
 
@@ -44,3 +44,9 @@ OfflineMode=False
 ShowNotifications=False
 SoundEnabled=False
 ```
+
+## Download
+
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+
+> [epic-games/NV-EpicGames-Tool](https://github.com/5Noxi/app-tools/blob/main/epic-games/NV-EpicGames-Tool.ps1)

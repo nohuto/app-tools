@@ -9,6 +9,12 @@ Disables/removes:_
 - `logi_lamparray_service`
 - LGHUB from Startup
 
-# In-App Settings
+## In-App Settings
 
 ![](https://github.com/5Noxi/app-tools/blob/main/lghub/media/logi.png?raw=true)
+
+## Download
+
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+
+> [lghub/NV-LGHUB-Switch](https://github.com/5Noxi/app-tools/blob/main/lghub/NV-LGHUB-Switch.ps1)

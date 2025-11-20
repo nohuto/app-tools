@@ -11,6 +11,8 @@ Command line options for games/steam:
 > https://developer.valvesoftware.com/wiki/Command_line_options#Steam_.28Windows.29  
 > [Command Lines Options Excel Sheet](https://github.com/5Noxi/app-tools/blob/main/steam/files/Steam-Commands.xlsx)  
 
+## Steam Trace
+
 All values steam reads on startup (`HKCU\Software\Valve\Steam`):
 ```c
 "HKCU\Software\Valve\Steam\ActiveProcess\pid","Type: REG_DWORD, Length: 4, Data: 10056"
@@ -42,7 +44,7 @@ All values steam reads on startup (`HKCU\Software\Valve\Steam`):
 "HKCU\Software\Valve\Steam\SteamInstaller","Length: 12"
 ```
 
-# In-App Settings
+## In-App Settings
 
 ![](https://github.com/5Noxi/app-tools/blob/main/steam/media/steam1.png?raw=true)
 ![](https://github.com/5Noxi/app-tools/blob/main/steam/media/steam2.png?raw=true)
@@ -107,4 +109,10 @@ Options don't exist by default, like:
     "DisableToastsInGame"        "1"
 ```
 
-> https://developer.valvesoftware.com/wiki/KeyValues  
+> https://developer.valvesoftware.com/wiki/KeyValues
+
+## Download
+
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+
+> [steam/NV-Steam-Tool](https://github.com/5Noxi/app-tools/blob/main/steam/NV-Steam-Tool.ps1)

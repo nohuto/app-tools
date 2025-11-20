@@ -8,9 +8,9 @@ It only debloats the installation a bit, for proper setup use the info below. Op
 | **Debloat**   | - Debugging tools<br> - Vulkan-related files<br> - Language files (only leaves en-US)<br> - Installer leftovers and logs                            |
 | **Clean up**  | - Cached web assets<br> - GPU and shader caches<br> - Shopping/cart tracking data<br> - Session storage<br> - ...        |
 
-- https://ungoogled-software.github.io/ungoogled-chromium-wiki/faq#how-do-i-install-widevine-cdm
+> https://ungoogled-software.github.io/ungoogled-chromium-wiki/faq#how-do-i-install-widevine-cdm
 
-# In-App Settings
+## In-App Settings
 
 ![](https://github.com/5Noxi/app-tools/blob/main/ungoogled/media/ungoogled1.png?raw=true)
 ![](https://github.com/5Noxi/app-tools/blob/main/ungoogled/media/ungoogled2.png?raw=true)
@@ -29,7 +29,7 @@ Further extensions you may want:
 > https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`)  
 > https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh  
 
-#  Flags - Privacy, Security & Performance
+## Flags - Privacy, Security & Performance
 
 You could also add command lines, instead of applying some of them via `chrome://flags`, but you won't see the changes if the command line is also available in `chrome://flags`. Verify them by entering `chrome://version` and looking into the '**Command Line**' section, you should see all commands, which are currently used there. You can find a list of flags [here](https://github.com/ungoogled-software/ungoogled-chromium/blob/master/docs/flags.md). 
 
@@ -63,7 +63,7 @@ The following are flags, which can be changed, by opening `chrome://flags` and p
 | `overlay-strategies`                                        | Select strategies used to promote quads to HW overlays. Note that strategies other than Default may break playback of protected content                                          | None / Occluded and unoccluded buffers    |
 | `use-angle`                                                 | Choose the graphics backend for ANGLE. D3D11 is used on most Windows computers by default. Using the OpenGL backend is not supported and will likely exhibit rendering artifacts | D3D11on12 (Test)    |
 
-## Exmperimental Flags
+### Exmperimental Flags
 
 The following are flags, which also can be useful, but youll have to test them yourself. Make sure to read the desc of the flag! If you experience issues, revert them to their default value. Using the flags listed above is already enough, this is just for people, who want to test more. If you dont know much about such settings, leave them, as for example `enable-waitable-swap-chain` can cause frame drops, if changing it to max 1 frame.
 
@@ -83,3 +83,9 @@ The following are flags, which also can be useful, but youll have to test them y
 | `username-first-flow-with-intermediate-values-voting`      | Support voting on username first flow with intermediate values. Username first flow is login/sign-up flow where a user has to type username first on one page and then password on another page. Intermediate fields are usually an OTP field or CAPTCHA                                                         | Disabled |
 | `web-share`                                                | Enables the Web Share (navigator.share) APIs on experimentally supported platforms                                                                                                                                                                                                                               | Disabled |
 | `enable-waitable-swap-chain`                               | Use waitable swap chains to reduce presentation latency (effective only Windows 8.1 or later). If enabled, specify the maximum number of frames that can be queued, ranging from 1-3. 1 has the lowest delay but is most likely to drop frames, while 3 has the highest delay but is least likely to drop frames | Enabled Max 2 Frame    |
+
+## Download
+
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+
+> [ungoogled/NV-Ungoogled-Tool](https://github.com/5Noxi/app-tools/blob/main/ungoogled/NV-Ungoogled-Tool.ps1)

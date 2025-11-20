@@ -9,12 +9,19 @@
 | **Equibop Installer (Vesktop fork)** | Automatically installs [Equibop](https://github.com/Equicord/Equibop), a Vesktop fork with enhanced features and performance. | **Equibop Features**<br>- Custom CSS and Themes<br>- Huge amount of plugins (more than Vesktop)<br>- Much more lightweight and faster than the official app<br><br>**Other Custom Clients**<br>- [Legcord](https://github.com/Legcord/Legcord)<br>- [Vesktop](https://github.com/Vencord/Vesktop)<br><br>**Other Discord Mods**<br>- [OpenAsar](https://github.com/GooseMod/OpenAsar)<br>- [Vencord](https://github.com/Vendicated/Vencord)<br><br>**Discord Themes**<br>- [Discord 2016](https://github.com/XYZenix/DTM-16)<br>- [Pastel Themes](https://github.com/catppuccin/discord)<br>- [Skeuomorphic Theme](https://github.com/Marda33/SkeuoCord)<br>- [More Themes](https://betterdiscord.app/themes) ([*](https://github.com/search?q=Discord%20Themes&type=repositories))<br><br>**Plugins**<br>`DisableDeepLinks`, `GitHubRepos`, `DisableAnimations`, `Translate`, `NoOnboardingDelay`, `MemberCount`, `FixImagesQuality`, `ClearURLs`, `BetterSettings`, ...<br>*(There are many more, names taken from `settings.json`)* |
 
 Add it on your own, if wanted (`CTRL` + `SHIFT` + `I` -> dev console):
+
 ```c
 "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
 ```
 
-# In-App Settings
+## In-App Settings
 
 The `Game Overlay` should also be disabled, but the tool disables it anyway.
 
 ![](https://github.com/5Noxi/app-tools/blob/main/discord/media/discord.png?raw=true)
+
+## Download
+
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+
+> [discord/NV-Discord-Tool](https://github.com/5Noxi/app-tools/blob/main/discord/NV-Discord-Tool.ps1)

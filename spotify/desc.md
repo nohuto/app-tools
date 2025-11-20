@@ -1,8 +1,5 @@
 ﻿# Spotify Tool
 
-Preview: 
-> https://youtu.be/F2rBejbYIsE
-
 | Option              | Description |
 | ------------------- | ----------- |
 | **SpotX Installer** | Asks if you want to uninstall your current version.<br><br>**Features:**<br> - Blocks all banner, video, and audio ads in the client<br> - Hides podcasts, episodes, and audiobooks from the homepage (optional)<br> - Blocks Spotify automatic updates (optional)<br> - Activates more experimental features<br> - Disables sentry's console log/error/warning messages to Spotify developers, halts user interaction logging, eliminates right-to-left CSS rules for simplification, and performs code minification<br> - The tool currently downloads the old theme. You can install the new theme [here](https://github.com/SpotX-Official/SpotX/releases), if you don’t like the old one (I recommend the old one).<br> - You can install [spicetify](https://spicetify.app/) after installing SpotX if you want custom themes, apps, and more extensions. If you don’t care about that, just use SpotX.<br> - [SpotX](https://github.com/SpotX-Official/SpotX-Bash) for Linux/MacOS. |
@@ -10,7 +7,11 @@ Preview:
 | **Debloat**         | Removes language packs, startup tasks, migrator files, debug logs, crash files, and more.<br> - Options to remove `login.spa`, which breaks the login part (use after logging into Spotify) |
 | **Clean up**        | Removes storage, data, browser files, cache, offline data, user data, shader cache, logs, and error report files. |
 
-# In-App Settings
+## Preview
+
+> https://youtu.be/F2rBejbYIsE
+
+## In-App Settings
 
 No need to apply, if using the tools `In-App Settings` option.
 
@@ -57,3 +58,11 @@ You can practically install it with (old theme):
 ```ps
 Invoke-Expression "& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/SpotX-Official/spotx-official.github.io/main/run.ps1') } -v 1.2.13.661.ga588f749-4064 -confirm_spoti_recomended_over -block_update_on -podcasts_off -adsections_off"
 ```
+
+## Download & Note on SpotX Removal
+
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+
+> [spotify/NV-Spotify-Tool](https://github.com/5Noxi/app-tools/blob/main/spotify/NV-Spotify-Tool.ps1)
+
+The SpotX repository got removed, means that the tool won't be able to download it anymore. I did upload a powershell script which works with a local mirror of the repository on my [Discord server](https://discord.com/channels/836870260715028511/836896618410278952/1438184846131466260).
