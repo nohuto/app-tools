@@ -86,6 +86,6 @@ The following are flags, which also can be useful, but youll have to test them y
 
 ## Download
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
 > [ungoogled/NV-Ungoogled-Tool](https://github.com/5Noxi/app-tools/blob/main/ungoogled/NV-Ungoogled-Tool.ps1)
