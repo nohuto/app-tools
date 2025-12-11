@@ -18,10 +18,10 @@ Add it on your own, if wanted (`CTRL` + `SHIFT` + `I` -> dev console):
 
 The `Game Overlay` should also be disabled, but the tool disables it anyway.
 
-![](https://github.com/5Noxi/app-tools/blob/main/discord/media/discord.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/discord/media/discord.png?raw=true)
 
 ## Download
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/8144f2f151799c6140ad3ea895ce55e13064abb4/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
-> [discord/NV-Discord-Tool](https://github.com/5Noxi/app-tools/blob/main/discord/NV-Discord-Tool.ps1)
+> [discord/NV-Discord-Tool](https://github.com/nohuto/app-tools/blob/main/discord/NV-Discord-Tool.ps1)

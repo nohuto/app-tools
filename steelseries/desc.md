@@ -20,18 +20,18 @@ It'll break:
 
 ## Comparison
 
-![](https://github.com/5Noxi/app-tools/blob/main/steelseries/media/ssbefore.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/steelseries/media/ssafter.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/ssbefore.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/ssafter.png?raw=true)
 
 ## In-App Settings
 
-![](https://github.com/5Noxi/app-tools/blob/main/steelseries/media/steel1.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/steelseries/media/steel2.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/steelseries/media/steel3.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/steelseries/media/steel4.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel1.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel2.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel3.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel4.png?raw=true)
 
 ## Download
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
-> [steelseries/NV-SteelSeries-Tool](https://github.com/5Noxi/app-tools/blob/main/steelseries/NV-SteelSeries-Tool.ps1)
+> [steelseries/NV-SteelSeries-Tool](https://github.com/nohuto/app-tools/blob/main/steelseries/NV-SteelSeries-Tool.ps1)

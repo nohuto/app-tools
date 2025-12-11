@@ -15,8 +15,8 @@
 
 No need to apply, if using the tools `In-App Settings` option.
 
-![](https://github.com/5Noxi/app-tools/blob/main/spotify/media/spotify1.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/spotify/media/spotify2.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/spotify/media/spotify1.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/spotify/media/spotify2.png?raw=true)
 
 ---
 
@@ -61,8 +61,8 @@ Invoke-Expression "& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubu
 
 ## Download & Note on SpotX Removal
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
-> [spotify/NV-Spotify-Tool](https://github.com/5Noxi/app-tools/blob/main/spotify/NV-Spotify-Tool.ps1)
+> [spotify/NV-Spotify-Tool](https://github.com/nohuto/app-tools/blob/main/spotify/NV-Spotify-Tool.ps1)
 
 The SpotX repository got removed, means that the tool won't be able to download it anymore. I did upload a powershell script which works with a local mirror of the repository on my [Discord server](https://discord.com/channels/836870260715028511/836896618410278952/1438184846131466260).

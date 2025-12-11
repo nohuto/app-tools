@@ -11,10 +11,10 @@ Disables/removes:_
 
 ## In-App Settings
 
-![](https://github.com/5Noxi/app-tools/blob/main/lghub/media/logi.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/lghub/media/logi.png?raw=true)
 
 ## Download
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
-> [lghub/NV-LGHUB-Switch](https://github.com/5Noxi/app-tools/blob/main/lghub/NV-LGHUB-Switch.ps1)
+> [lghub/NV-LGHUB-Switch](https://github.com/nohuto/app-tools/blob/main/lghub/NV-LGHUB-Switch.ps1)
