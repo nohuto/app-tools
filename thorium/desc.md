@@ -10,8 +10,8 @@ Thorium has already many files removed & settings applied, this tool will remove
 
 ## In-App Settings & Extensions
 
-![](https://github.com/5Noxi/app-tools/blob/main/thorium/media/tho1.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/thorium/media/tho2.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/thorium/media/tho1.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/thorium/media/tho2.png?raw=true)
 
 uBlock Origin Filters:
 > https://github.com/yokoffing/filterlists  
@@ -86,6 +86,6 @@ The following are flags, which also can be useful, but youll have to test them y
 
 ## Download
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
-> [thorium/NV-Thorium-Tool](https://github.com/5Noxi/app-tools/blob/main/thorium/NV-Thorium-Tool.ps1)
+> [thorium/NV-Thorium-Tool](https://github.com/nohuto/app-tools/blob/main/thorium/NV-Thorium-Tool.ps1)

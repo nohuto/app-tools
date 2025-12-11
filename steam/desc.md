@@ -4,12 +4,12 @@
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Clean up**                                                                           | Removes files *(logs, cache files...)*                                                                                                                                                                               |
 | **Startup with parameters**                                                            | - Lets you create a batch<br> - Set the Start Up Location to `Libary`<br> - Disables features and reduces usage                                                                                                        |
-| **Disable [Chromium Embedded Framework](https://github.com/Aetopia/NoSteamWebHelper)** | - Automatically toggles the CEF depending if a game is running or not<br> - There will also be '**Steam WebHelper**' in your taskbar, which lets you toggle it manually<br> With CEF:<br>![](https://github.com/5Noxi/app-tools/blob/main/steam/media/cef.png?raw=true)<br> Without CEF:<br>![](https://github.com/5Noxi/app-tools/blob/main/steam/media/cefoff.png?raw=true) |
+| **Disable [Chromium Embedded Framework](https://github.com/Aetopia/NoSteamWebHelper)** | - Automatically toggles the CEF depending if a game is running or not<br> - There will also be '**Steam WebHelper**' in your taskbar, which lets you toggle it manually<br> With CEF:<br>![](https://github.com/nohuto/app-tools/blob/main/steam/media/cef.png?raw=true)<br> Without CEF:<br>![](https://github.com/nohuto/app-tools/blob/main/steam/media/cefoff.png?raw=true) |
 | **Registry Values**                                                                    | Adds some registry values, which are read (Interface settings)                                                                                                                                                       |
 
 Command line options for games/steam:
 > https://developer.valvesoftware.com/wiki/Command_line_options#Steam_.28Windows.29  
-> [Command Lines Options Excel Sheet](https://github.com/5Noxi/app-tools/blob/main/steam/files/Steam-Commands.xlsx)  
+> [Command Lines Options Excel Sheet](https://github.com/nohuto/app-tools/blob/main/steam/files/Steam-Commands.xlsx)  
 
 ## Steam Trace
 
@@ -46,10 +46,10 @@ All values steam reads on startup (`HKCU\Software\Valve\Steam`):
 
 ## In-App Settings
 
-![](https://github.com/5Noxi/app-tools/blob/main/steam/media/steam1.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/steam/media/steam2.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/steam/media/steam3.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/steam/media/steam4.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steam/media/steam1.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steam/media/steam2.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steam/media/steam3.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/steam/media/steam4.png?raw=true)
 
 ---
 
@@ -113,6 +113,6 @@ Options don't exist by default, like:
 
 ## Download
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
-> [steam/NV-Steam-Tool](https://github.com/5Noxi/app-tools/blob/main/steam/NV-Steam-Tool.ps1)
+> [steam/NV-Steam-Tool](https://github.com/nohuto/app-tools/blob/main/steam/NV-Steam-Tool.ps1)

@@ -12,8 +12,8 @@ It only debloats the installation a bit, for proper setup use the info below. Op
 
 ## In-App Settings
 
-![](https://github.com/5Noxi/app-tools/blob/main/ungoogled/media/ungoogled1.png?raw=true)
-![](https://github.com/5Noxi/app-tools/blob/main/ungoogled/media/ungoogled2.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/ungoogled/media/ungoogled1.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/ungoogled/media/ungoogled2.png?raw=true)
 
 To be able to install extensions, do the following:
 1. Set `chrome://flags/#extension-mime-request-handling` to `Always prompt for install` and relaunch  
@@ -86,6 +86,6 @@ The following are flags, which also can be useful, but youll have to test them y
 
 ## Download
 
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/5Noxi/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
+It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
 
-> [ungoogled/NV-Ungoogled-Tool](https://github.com/5Noxi/app-tools/blob/main/ungoogled/NV-Ungoogled-Tool.ps1)
+> [ungoogled/NV-Ungoogled-Tool](https://github.com/nohuto/app-tools/blob/main/ungoogled/NV-Ungoogled-Tool.ps1)
