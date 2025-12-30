@@ -20,7 +20,7 @@ To be able to install extensions, do the following:
 2. Then click on the latest `Chromium.Web.Store.crx` link on the [extension's releases page](https://github.com/NeverDecaf/chromium-web-store/releases)
 
 Example uBO configuration (which I currently use):
-> https://github.com/nohuto/app-tools/blob/main/ungoogled/assets/uBlock-Config.txt
+> https://github.com/nohuto/app-tools/blob/main/assets/uBlock-Config.txt
 
 uBlock Origin Filters:
 > https://github.com/nohuto/blocklist-mgr  
@@ -31,6 +31,12 @@ Further extensions you may want:
 > https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)  
 > https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`)  
 > https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh  
+
+Possible DDG search engine configuration:
+
+![](https://github.com/nohuto/app-tools/blob/main/assets/ddg1.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/assets/ddg2.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/assets/ddg3.png?raw=true)
 
 ## Flags - Privacy, Security & Performance
 
