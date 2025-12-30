@@ -15,7 +15,6 @@ Thorium has already many files removed & settings applied, this tool will remove
 
 uBlock Origin Filters:
 > https://github.com/yokoffing/filterlists  
-> https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869  
 > https://filterlists.com/  
 
 Further extensions you may want:

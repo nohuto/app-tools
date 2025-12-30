@@ -16,9 +16,9 @@
 ![](https://github.com/nohuto/app-tools/blob/main/brave/media/br2.png?raw=true)
 
 uBlock Origin Filters:
+> https://github.com/nohuto/blocklist-mgr  
 > https://github.com/yokoffing/filterlists  
-> https://discord.com/channels/836870260715028511/1355572214489153756/1364319330820558869  
-> https://filterlists.com/  
+> https://filterlists.com/
 
 Further extensions you may want:
 > https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)  
