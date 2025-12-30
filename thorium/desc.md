@@ -14,7 +14,7 @@ Thorium has already many files removed & settings applied, this tool will remove
 ![](https://github.com/nohuto/app-tools/blob/main/thorium/media/tho2.png?raw=true)
 
 Example uBO configuration (which I currently use):
-> https://github.com/nohuto/app-tools/blob/main/thorium/assets/uBlock-Config.txt
+> https://github.com/nohuto/app-tools/blob/main/assets/uBlock-Config.txt
 
 uBlock Origin Filters:
 > https://github.com/nohuto/blocklist-mgr  
@@ -25,6 +25,12 @@ Further extensions you may want:
 > https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)  
 > https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`)  
 > https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh  
+
+Possible DDG search engine configuration:
+
+![](https://github.com/nohuto/app-tools/blob/main/assets/ddg1.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/assets/ddg2.png?raw=true)
+![](https://github.com/nohuto/app-tools/blob/main/assets/ddg3.png?raw=true)
 
 ## Flags - Privacy, Security & Performance
 
