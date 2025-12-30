@@ -35,8 +35,19 @@ How do I use command line flags in Brave?
 
 The following are flags, which can be changed, by opening `brave://flags` and pasting the name into the search bar. Some are personal preference, some may disable features, which you want, so read the desc of the flag, before changing it.
 
+Since Brave comes with crypo features, Leo AI etc. by default it's recommended to disable these features via flags (which completely hides them from the UI).
+
 | Flag                                                        | Description                                                                                                                                                                       | State                                         |
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| `brave-wallet-zcash` | Zcash support for native Brave Wallet | Disabled |
+| `brave-wallet-bitcoin` | Bitcoin support for native Brave Wallet | Disabled |
+| `brave-wallet-cardano` | Cardano support for native Brave Wallet | Disabled |
+| `brave-ai-chat` | Summarize articles and engage in conversation with AI | Disabled |
+| `brave-ai-chat-history` | Enables AI Chat History persistence and management | Disabled |
+| `brave-ai-chat-tools` | Conversations can provide Tools to the AI to perform more specific actions.  | Disabled |
+| `brave-ai-chat-agent-profile` | Enables Leo's content agent features and only in a separate built-in profile. | Disabled |
+| `brave-ai-chat-open-leo-from-brave-search` | Enables opening Leo AI Chat from Brave Search | Disabled |
+| `brave-ai-rewriter` | Enables the Brave AI rewriter dialog | Disabled |
 | `block-insecure-private-network-requests`                   | Prevents non-secure contexts from making subresource requests to more-private IP addresses                                                                                        | Enabled                                       |
 | `clear-cross-site-cross-browsing-context-group-window-name` | Clear the preserved window.name property when it's a top-level cross-site navigation that swaps BrowsingContextGroup                                                              | Enabled                                       |
 | `disallow-doc-written-script-loads`                         | Disallows fetches for third-party parser-blocking scripts inserted into the main frame via document.write                                                                         | Enabled                                       |
