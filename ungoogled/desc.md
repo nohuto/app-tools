@@ -19,6 +19,9 @@ To be able to install extensions, do the following:
 1. Set `chrome://flags/#extension-mime-request-handling` to `Always prompt for install` and relaunch  
 2. Then click on the latest `Chromium.Web.Store.crx` link on the [extension's releases page](https://github.com/NeverDecaf/chromium-web-store/releases)
 
+Example uBO configuration (which I currently use):
+> https://github.com/nohuto/app-tools/blob/main/ungoogled/assets/uBlock-Config.txt
+
 uBlock Origin Filters:
 > https://github.com/nohuto/blocklist-mgr  
 > https://github.com/yokoffing/filterlists  

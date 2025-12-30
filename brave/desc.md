@@ -15,6 +15,9 @@
 ![](https://github.com/nohuto/app-tools/blob/main/brave/media/br1.png?raw=true)
 ![](https://github.com/nohuto/app-tools/blob/main/brave/media/br2.png?raw=true)
 
+Example uBO configuration (which I currently use):
+> https://github.com/nohuto/app-tools/blob/main/brave/assets/uBlock-Config.txt
+
 uBlock Origin Filters:
 > https://github.com/nohuto/blocklist-mgr  
 > https://github.com/yokoffing/filterlists  
