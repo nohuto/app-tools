@@ -22,7 +22,15 @@ uBlock Origin Filters:
 > https://filterlists.com/
 
 Further extensions you may want:
+
+> https://chromewebstore.google.com/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii?pli=1 (uBlock Origin development build)
+
+uBlock origin was removed from the chrome extension store, but you can still add it via the link (may be removed soon).
+
 > https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg (search engine)  
+
+You can get my minimal configuration for the search engine via the `nohutoddg` passphrase.
+
 > https://chromewebstore.google.com/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm (skips cookies - don't use `I don't care about cookies`)  
 > https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh  
 
