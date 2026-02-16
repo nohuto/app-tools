@@ -14,6 +14,10 @@ Add it on your own, if wanted (`CTRL` + `SHIFT` + `I` -> dev console):
 "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
 ```
 
+## TUI Preview
+
+![](https://github.com/nohuto/app-tools/blob/main/discord/media/discordtui.png?raw=true)
+
 ## In-App Settings
 
 The `Game Overlay` should also be disabled, but the tool disables it anyway.

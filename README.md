@@ -14,6 +14,7 @@ See [game-tools](https://github.com/nohuto/game-tools) for similar tools, but fo
   - [Download](https://github.com/nohuto/app-tools/blob/main/brave/desc.md#download)
 
 - [Discord Tool](https://github.com/nohuto/app-tools/blob/main/discord/desc.md#discord-tool)
+  - [TUI Preview](https://github.com/nohuto/app-tools/blob/main/discord/desc.md#tui-preview)
   - [In-App Settings](https://github.com/nohuto/app-tools/blob/main/discord/desc.md#in-app-settings)
   - [Download](https://github.com/nohuto/app-tools/blob/main/discord/desc.md#download)
 
