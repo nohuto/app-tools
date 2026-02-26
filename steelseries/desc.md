@@ -2,6 +2,9 @@
 
 It was made for fun, if you're using SS for something else than your keyboard, don't use it. The script is pretty simple to understand, if you want to modify the debloat process just add the file/folder names to the vars.
 
+> [!TIP]
+> If you only own a SteelSeries keyboard, save your configuration in an on-board profile then turn off the lighting via `SteelSeries Key + C`. Turning off the lighting in the "Prism" tab won't work, as the default colors will load when the app isn't opened (this tip is for users who don't want the app to run in the background).
+
 It'll break:
 - Moments (capture & sound tab shows error)
 - Cloud sync
