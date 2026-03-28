@@ -42,7 +42,7 @@ Click on the gear in a new tab to get to this part.
 - `Block fingerprinting`: On
 - `Block cookies`: Block third-party cookies
 - Content filtering
-  - All off, I personally use uBO instead
+  - All off, I personally use uBO instead (if you would use uBO only for adding blocklists, use Brave Shields instead)
 - `Allow Facebook logins and embeded posts`: Off
 - `Allow X (previously Twitter) embedded tweet`: Off
 - `Allow LinkedIn embedded posts`: Off

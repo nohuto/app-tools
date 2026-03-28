@@ -1,12 +1,12 @@
-#    LGHUB Switcher
-#    Copyright (C) 2025 Noverse
+# LGHUB Switcher
+# Copyright (C) 2025 Noverse
 
 $host.ui.RawUI.WindowTitle = "Noverse LGHUB Switcher"
 $Host.UI.RawUI.BackgroundColor = "Black"
 sv -Scope Global -Name "ErrorActionPreference" -Value "SilentlyContinue"
 cls
 
-function log{
+function log {
     param ([string]$HighlightMessage,[string]$Message,[string]$Sequence,[ConsoleColor]$TimeColor='DarkGray',[ConsoleColor]$HighlightColor='White',[ConsoleColor]$MessageColor='White',[ConsoleColor]$SequenceColor='White')
     $time=" [{0:HH:mm:ss}]" -f (Get-Date)
     Write-Host -ForegroundColor $TimeColor $time -NoNewline
@@ -30,6 +30,7 @@ function nvmain {
     Write-Host "] Exit"
     Write-Host ""
     Write-Host " >> " -ForegroundColor Blue -NoNewline
+
     $choice = Read-Host
     switch ($choice) {
         "1" {
@@ -58,7 +59,12 @@ function nvmain {
             sleep 1
             nvmain
         }
-        "3" {echo "";log "[/]" "Exiting" -HighlightColor Yellow;sleep 1;exit}
+        "3" {
+            echo ""
+            log "[/]" "Exiting" -HighlightColor Yellow
+            sleep 1
+            exit
+        }
         default {
             echo ""
             log "[-]" "Invalid input" -HighlightColor Red
@@ -67,4 +73,5 @@ function nvmain {
         }
     }
 }
+
 nvmain
