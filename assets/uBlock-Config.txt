@@ -1,34 +1,31 @@
 {
-  "timeStamp": 1767122847585,
-  "version": "1.68.1b8",
+  "timeStamp": 1774605232474,
+  "version": "1.70.1b2",
   "userSettings": {
     "advancedUserEnabled": true,
-    "uiTheme": "dark",
-    "externalLists": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd7.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.medium.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/urlshortener.txt",
-    "importedLists": [
-      "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd7.txt",
-      "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
-      "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.medium.txt",
-      "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/urlshortener.txt"
-    ],
-    "popupPanelSections": 31,
-    "suspendUntilListsAreLoaded": true
+    "importedLists": [],
+    "popupPanelSections": 31
   },
   "selectedFilterLists": [
-    "user-filters",
     "ublock-filters",
-    "ublock-badware",
     "ublock-privacy",
     "ublock-quick-fixes",
     "ublock-unbreak",
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/urlshortener.txt",
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.medium.txt",
-    "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nrd7.txt"
+    "easylist",
+    "adguard-spyware-url",
+    "urlhaus-1",
+    "fanboy-cookiemonster",
+    "ublock-cookies-easylist",
+    "fanboy-social",
+    "fanboy-ai-suggestions",
+    "easylist-chat",
+    "easylist-newsletters",
+    "easylist-notifications",
+    "easylist-annoyances",
+    "ublock-annoyances"
   ],
   "hiddenSettings": {
-    "autoCommentFilterTemplate": "{{url}}",
-    "trustedListPrefixes": "-"
+    "autoUpdateDelayAfterLaunch": 10
   },
   "whitelist": [
     "chrome-extension-scheme",
