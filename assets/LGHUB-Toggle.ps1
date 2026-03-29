@@ -3,7 +3,6 @@
 
 [console]::Title = "Noverse LGHUB Toggle"
 [console]::BackgroundColor = "Black"
-$ErrorActionPreference = "stop"
 cls
 
 function log {
