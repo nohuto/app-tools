@@ -91,11 +91,11 @@ Disable Brave's Web3 features if you don't use them.
 
 ## Search Engine
 
-See [search-engine]().
+See [search-engine](https://github.com/nohuto/app-tools/blob/main/search-engine.md).
 
 ## Extensions
 
-See [extensions]().
+See [extensions](https://github.com/nohuto/app-tools/blob/main/extensions.md).
 
 ## Flags
 
