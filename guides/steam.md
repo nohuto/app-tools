@@ -97,8 +97,8 @@ You can edit the settings the script applies via `$settings`, to do so you need 
 - `C:\Program Files (x86)\Steam\config\config.vdf`
 - `C:\Program Files (x86)\Steam\config\loginusers.vdf`: stores users/login behaviours (offline mode, remember password, auto login, etc.)
 - `C:\Program Files (x86)\Steam\config\libraryfolders.vdf`: stores library paths
-- `C:\Program Files (x86)\Steam\userdata\<id>\config\localconfig.vdf`: saves most steam settings
-- `C:\Program Files (x86)\Steam\userdata\1139041761\7\remote\sharedconfig.vdf`: saves per-app/SteamUI config (and toast settings)
+- `C:\Program Files (x86)\Steam\userdata\<AccountID>\config\localconfig.vdf`: saves most steam settings
+- `C:\Program Files (x86)\Steam\userdata\<AccountID>\<AppID>\remote\sharedconfig.vdf`: saves per-app/SteamUI config (and toast settings)
 
 Means to automate the configuration we only use `localconfig.vdf`/`sharedconfig.vdf`. It's not possible to configure all settings from [#app-settings]() via the local files/registry but some of them.
 
