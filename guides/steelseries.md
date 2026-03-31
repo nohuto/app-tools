@@ -1,40 +1,28 @@
-﻿# SteelSeries Debloat
+﻿# SteelSeries Configuration
 
-It was made for fun, if you're using SS for something else than your keyboard, don't use it. The script is pretty simple to understand, if you want to modify the debloat process just add the file/folder names to the vars.
+If you only own a SteelSeries keyboard, save your configuration in an on-board profile then turn off the lighting via `SteelSeries Key + C`. Turning off the lighting in the "Prism" tab won't work, as the default colors will load when the app isn't opened (this tip is for users who don't want the app to run in the background).
 
-> [!TIP]
-> If you only own a SteelSeries keyboard, save your configuration in an on-board profile then turn off the lighting via `SteelSeries Key + C`. Turning off the lighting in the "Prism" tab won't work, as the default colors will load when the app isn't opened (this tip is for users who don't want the app to run in the background).
+## App Settings
 
-It'll break:
-- Moments (capture & sound tab shows error)
-- Cloud sync
-- Sonar (reinstalls itself if using it)
-- 3D aim trainer
-- Uninstall executable (add the file name to the list, to prevent it)
-- All languages (only leaves english)
-- All apps except of Engine
-- Game overlay
-- CV GameSense
-- Low battery sounds
-- `SteelSeries_Sonar_VAD` service
-- `SteelSeriesGGUpdateServiceProxy` service
-
-> Backup the `GG` folder in your SteelSeries folder (`%programfiles%\SteelSeries`)
-
-## Comparison
-
-![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/ssbefore.png?raw=true)
-![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/ssafter.png?raw=true)
-
-## In-App Settings
-
-![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel1.png?raw=true)
-![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel2.png?raw=true)
-![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel3.png?raw=true)
-![](https://github.com/nohuto/app-tools/blob/main/steelseries/media/steel4.png?raw=true)
-
-## Download
-
-It might fail execution if the powershell execution policy is set to it's default values. See [PS Unrestricted Policy](https://github.com/nohuto/win-config/blob/main/security/desc.md#ps-unrestricted-policy) for details.
-
-> [steelseries/NV-SteelSeries-Tool](https://github.com/nohuto/app-tools/blob/main/steelseries/NV-SteelSeries-Tool.ps1)
+- General
+  - `Sonar`: Off
+  - `Run SteelSeries GG when my computer starts`: Off (see text above)
+  - `Feeling adventurous? Then sign up to get early releases of our software`: Off
+- Privacy
+  - `Use Data to Personalize GG`: Off
+- Notifications
+  - `Allow deskto notifications drom Engine`: Off (preference)
+- Overlays and Notifications (Quickset)
+  - `Display Overlays`: Off
+- Overlays and Notifications (Engine)
+  - `Display overlays`: Off
+- Capture and Sound
+  - `Allow Moments to caputre while gaming`: Off
+  - `Allow Reaction Clipping`: Off
+  - `Launch Moments and highlight after most recent gaming session`: Off
+- Overlays and Notifications (Moments)
+  - `Display game overlays`: Off
+- Game Detection
+  - `Automatically scan for games`: Off
+- Auto-clip
+  - `Allow auto-clipping`: Off
