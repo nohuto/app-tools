@@ -2,7 +2,6 @@
 # Copyright (C) 2026 Noverse
 
 [console]::Title = "Noverse LGHUB Toggle"
-[console]::BackgroundColor = "Black"
 cls
 
 function log {

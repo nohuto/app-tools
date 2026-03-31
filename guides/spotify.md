@@ -1,4 +1,4 @@
-﻿# Spotify Tool
+﻿# Spotify Configuration
 
 By default Spotify includes trackers/ads/analytics which can be blocked using a patched version of it, see SpotX.
 
