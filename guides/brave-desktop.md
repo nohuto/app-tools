@@ -1,4 +1,4 @@
-﻿# Brave Configuration
+﻿# Brave Configuration (Desktop)
 
 [Brave](https://github.com/brave/brave-browser/releases) is my second browser which I use for streaming content that requires widevine.
 
@@ -38,7 +38,7 @@ Click on the gear in a new tab to get to this part.
 - `Show the number of blocked items on the Shield icon`: Off (you can see it by clicking on the icon/hovering over it)
 - `Trackers & ads blocking`: Aggressive
 - `Upgrade connection to HTTPS`: Strict
-- `Block scripts`: On (will break a lot since JS is getting blocked)
+- `Block scripts`: Off ('On' will break things since JS is getting blocked, turn it on if possible)
 - `Block fingerprinting`: On
 - `Block cookies`: Block third-party cookies
 - Content filtering
@@ -77,7 +77,6 @@ Disable Brave's Web3 features if you don't use them.
 
 - `Default Ethereum wallet`: Extension (no fallback)
 - `Default Solana wallet`: Extension (no fallback)
-- `Default Cardano wallet`: Extension (no fallback)
 - `Resolve Unstoppable Domains domain names`: Disabled
 - `Resolve Ethereum Name Service (ENS) domain names`: Disabled
 - `Resolve Solana Name Service (SNS) domain names`: Disabled
@@ -89,13 +88,39 @@ Disable Brave's Web3 features if you don't use them.
 - `Clear Leo data`: Clear it once
 - `Store my conversation history`: Off
 
-## Search Engine
+### Search Engine
 
 See [search-engine](https://github.com/nohuto/app-tools/blob/main/search-engine.md).
 
-## Extensions
+### Extensions
 
 See [extensions](https://github.com/nohuto/app-tools/blob/main/extensions.md).
+
+### Autofill and passwords
+
+Don't use the built-in password manager, use a [passowrd manager extension](https://github.com/nohuto/app-tools/blob/main/extensions.md#password-manager-firefox---chrome) instead.
+
+- Password Manager
+  - Settings
+    - `Offer to save paswords and passkeys`: Off
+- Payment methods
+  - `Save and fill payment methods`: Off
+  - `Save security codes`: Off
+  - `Allow sites to check if you have payment methods saved`: Off
+- `Allow auto-fill in private window`: Off
+
+### Languages
+
+- `Check for spelling errors when you type text on web pages`: Off
+
+### System
+
+- `Continue running background apps when Brave is closed`: Off
+- `Close window when closing last tab`: On
+- `Warn me before closing window with multiple tabs`: Off (preference)
+- `Show full screen reminder to press Esc on exit`: Off
+- `Show VPN Tray Icon`: Off
+- `Memory Saver`: Balanced
 
 ## Flags
 

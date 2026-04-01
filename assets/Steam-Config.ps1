@@ -2,7 +2,7 @@
 # Copyright (C) 2026 Noverse
 
 param([string[]]$paths)
-[console]::Title = "Noverse Steam Configuration"
+#[console]::Title = "Noverse Steam Configuration"
 
 class vdfnode { [System.Collections.Generic.List[object]]$entries = [System.Collections.Generic.List[object]]::new() }
 
