@@ -1,6 +1,6 @@
 ﻿# Brave Configuration (Desktop)
 
-[Brave](https://github.com/brave/brave-browser/releases) is my second browser which I use for streaming content that requires widevine.
+[Brave](https://github.com/brave/brave-browser/releases) is my secondary browser which I use for streaming content that requires widevine.
 
 ## App Settings
 
