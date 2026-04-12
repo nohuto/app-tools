@@ -1,6 +1,6 @@
 ﻿# Brave Configuration (Desktop)
 
-[Brave](https://github.com/brave/brave-browser/releases) is my secondary browser which I use for streaming content that requires widevine.
+[Brave](https://github.com/brave/brave-browser/releases) is my secondary browser which I use for streaming content that requires [widevine](https://chromium.woolyss.com/#widevine) since it supports it natively.
 
 ## App Settings
 
@@ -130,6 +130,7 @@ You could also add flags via the [CL](https://support.brave.com/hc/en-us/article
 
 | Flag | Description | State |
 | --- | --- | --- |
+| `brave-v8-jitless-mode` | Enable V8 jitless mode when optimizations are disabled. V8 runs in jitless mode which reduces performance but improves security. This does not affect all pages. | Enabled |
 | `brave-wallet-zcash` | Zcash support for native Brave Wallet | Disabled |
 | `brave-wallet-bitcoin` | Bitcoin support for native Brave Wallet | Disabled |
 | `brave-wallet-cardano` | Cardano support for native Brave Wallet | Disabled |
@@ -141,6 +142,7 @@ You could also add flags via the [CL](https://support.brave.com/hc/en-us/article
 | `brave-news-peek` | Prompt Brave News via the top featured article peeking up from the bottom of the New Tab Page, after a short delay | Disabled |
 | `brave-news-feed-update` | Use the updated Brave News feed | Disabled |
 | `brave-rewards-gemini` | Enables support for Gemini as an external wallet provider for Brave | Disabled |
+| `brave-compact-horizontal-tabs` | Reduces the height of horizontal tabs | Enabled (preference) |
 
 ## Disabling Brave Services/Tasks
 
