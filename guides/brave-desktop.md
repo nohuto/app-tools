@@ -61,7 +61,7 @@ Click on the gear in a new tab to get to this part.
 - `Auto-redirect tracking URLs`: On
 - `Prevent sites from fingerprinting me based on my language preferences`: On
 - `Block Microsoft Recall`: On
-- `Send a "Do Not Track" request with your browsing traffic`: Off (" Many sites do not respect this indication of a person's privacy preferences and, in some cases, it can reduce privacy." ~ [support.mozilla](https://support.mozilla.org/en-US/kb/how-do-i-turn-do-not-track-feature))
+- `Send a "Do Not Track" request with your browsing traffic`: Off ("Many sites do not respect this indication of a person's privacy preferences and, in some cases, it can reduce privacy." ~ [support.mozilla](https://support.mozilla.org/en-US/kb/how-do-i-turn-do-not-track-feature))
 
 ### Data collection
 
