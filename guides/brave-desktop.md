@@ -19,19 +19,32 @@ Click on the gear in a new tab to get to this part.
   - `Brave VPN`: Off
   - `Brave Rewards`: Off
   - `Brave Talk`: Off
+  - `Brave News`: Off
+
+### Get started
+
+- `On startup`: Open the New Tab page
 
 ### Appearance
 
 - Customize your toolbar
+  - `Forward`: On
+  - `Add Bookmark`: Off (preference, you can add bookmarks via Menu > Bookmarks and list)
+  - `Sidebar`: Off
+  - `Tab search`: Off
   - `Wallet`: Off
   - `Leo AI`: Off
   - `VPN`: Off
   - `Password Manager`: Off (use a password manager extension, not the built-in managers)
   - `Rewards`: Off
+  - `Add RSS feed`: Off
+  - `Install app`: Off
 - Show autocomplete suggestions in address bar
   - `Leo AI Assistant`: Off
 - `Use wide address bar`: On
 - `Always show full URLs`: On
+- `Allow middle button click to close tabs`: Off (preference)
+- `Show memory usage on tab hover preview card`: Off (preference)
 
 ### Shields
 
@@ -41,6 +54,7 @@ Click on the gear in a new tab to get to this part.
 - `Block scripts`: Off ('On' will break things since JS is getting blocked, turn it on if possible)
 - `Block fingerprinting`: On
 - `Block cookies`: Block third-party cookies
+- `Store contact information for future broken site reports`: Off
 - Content filtering
   - All off, I personally use uBO instead (if you would use uBO only for adding blocklists, use Brave Shields instead)
 - `Allow Facebook logins and embeded posts`: Off
@@ -49,6 +63,12 @@ Click on the gear in a new tab to get to this part.
 
 ### Privacy and security
 
+- Delete browsing data
+  - Delete data on exit
+    - `Browsing history`: On
+    - `Leo AI`: On
+    - `Download history`: On
+    - `Autofill form data`: On
 - Security
   - `Use secure DNS`: On (I would recommend to use [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls#specifications)/[Quad9](https://quad9.net/news/blog/doh-with-quad9-dns-servers/#additional-information) or set up your own private DNS via [AdGuard](https://adguard-dns.io/) - see [win-config/network/encrypted-dns/#providers-compared](https://www.noverse.dev/docs/win-config/network/encrypted-dns/#providers-compared) & [win-config/network/encrypted-dns/#note-for-ios-users](https://www.noverse.dev/docs/win-config/network/encrypted-dns/#note-for-ios-users))
   - Manage JavaScript optimizations & security
@@ -77,6 +97,7 @@ Disable Brave's Web3 features if you don't use them.
 
 - `Default Ethereum wallet`: Extension (no fallback)
 - `Default Solana wallet`: Extension (no fallback)
+- `Reset and clear wallet data`: Clear it once
 - `Resolve Unstoppable Domains domain names`: Disabled
 - `Resolve Ethereum Name Service (ENS) domain names`: Disabled
 - `Resolve Solana Name Service (SNS) domain names`: Disabled
@@ -89,6 +110,9 @@ Disable Brave's Web3 features if you don't use them.
 - `Store my conversation history`: Off
 
 ### Search Engine
+
+- `Improve search suggestions`: Off
+- `Web Discovery Project`: Off
 
 See [search-engine](https://github.com/nohuto/app-tools/blob/main/search-engine.md).
 
@@ -103,6 +127,8 @@ Don't use the built-in password manager, use a [passowrd manager extension](http
 - Password Manager
   - Settings
     - `Offer to save paswords and passkeys`: Off
+    - `Sign in automatically`: Off
+    - `Delete all Password Manager data`: Delete data
 - Payment methods
   - `Save and fill payment methods`: Off
   - `Save security codes`: Off
@@ -138,6 +164,7 @@ You could also add flags via the [CL](https://support.brave.com/hc/en-us/article
 | `brave-ai-chat-history` | Enables AI Chat History persistence and management | Disabled |
 | `brave-ai-chat-rich-search-widgets` | Enables AI Chat Rich Search Widgets | Disabled |
 | `brave-ai-chat-open-leo-from-brave-search` | Enables opening Leo AI Chat from Brave Search | Disabled |
+| `brave-ai-chat-web-content-association-default` | For AI Chat Conversations which are associated with web content, allow the toggle for sending page content to be set to enabled when the conversation is created. | Disabled |
 | `native-brave-wallet` | Native cryptocurrency wallet support without the use of extensions | Disabled |
 | `brave-news-peek` | Prompt Brave News via the top featured article peeking up from the bottom of the New Tab Page, after a short delay | Disabled |
 | `brave-news-feed-update` | Use the updated Brave News feed | Disabled |
