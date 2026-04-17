@@ -4,6 +4,8 @@
 
 ## App Settings
 
+- `workbench.activityBar.location`: top
+
 ### Customize New Tab Page
 
 Click on the gear in a new tab to get to this part.

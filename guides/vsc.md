@@ -4,6 +4,34 @@ I personally use [VSCodium](https://github.com/VSCodium/vscodium) instead of VSC
 
 Stops VSC to send telemetry, crash reports, disable online experiments, turn off automatic updates (manual updates), prevent fetching release notes, stop automatic extension and git repository updates, limit extension recommendations to on demand requests, and block fetching package information from online sources like NPM or Bower.
 
+## App Settings
+
+These settings are personal preference, the listed ones below cause VCS to appear more minimal/compact. 
+
+- `editor.wordWrap`: on
+- `extensions.ignoreRecommendations`: true
+- `update.showReleaseNotes`: false
+- `window.commandCenter`: false
+- `window.menuBarVisibility`: compact
+- `workbench.activityBar.location`: top
+- `workbench.editor.wrapTabs`: true
+- `workbench.layoutControl.enabled`: false
+- `workbench.startupEditor`: none
+
+## Telemetry Settings
+
+Basically make sure everything in 'Settings > Application > Telemetry' is turned off/set to false.
+
+- `telemetry.editStats.details.enabled`: true
+- `telemetry.editStats.enabled`: true
+- `telemetry.editStats.showDecorations`: true
+- `telemetry.editStats.showStatusBar`: true
+- `telemetry.enableCrashReporter`: false
+- `telemetry.enableTelemetry`: false
+- `telemetry.feedback.enabled`: false
+- `telemetry.telemetryLevel`: off
+- `workbench.enableExperiments`: false
+
 ```c
 [{
   // "extensions.showRecommendationsOnlyOnDemand": true,
@@ -42,15 +70,3 @@ export const enum TelemetryLevel {
 > https://github.com/microsoft/vscode/blob/274d71002ec805c8b4f61ade3f058dd3cac1aceb/extensions/npm/package.nls.json#L26  
 > https://github.com/microsoft/vscode/blob/274d71002ec805c8b4f61ade3f058dd3cac1aceb/src/vs/platform/telemetry/common/telemetry.ts#L83  
 > https://github.com/microsoft/vscode/blob/274d71002ec805c8b4f61ade3f058dd3cac1aceb/src/vs/workbench/services/assignment/common/assignmentService.ts#L110
-
-
-```json
-"Path": "{VSCodeAppData}\\User\\settings.json",
-    "extensions.ignoreRecommendations": true,
-    "telemetry.telemetryLevel": "off",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.feedback.enabled": false,
-    "update.showReleaseNotes": false,
-    "workbench.enableExperiments": false
-```
