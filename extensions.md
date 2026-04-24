@@ -10,7 +10,11 @@ I use a private DNS server with several lists of [hagezi](https://github.com/hag
 
 ### Violentmonkey - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) - [Chrome](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 
-Only needed whenever using userscripts (you can practically also use a userscript via uBO using `userResourcesLocation`), e.g. [vaft](https://github.com/pixeltris/TwitchAdSolutions/raw/master/vaft/vaft.user.js).
+Only needed whenever using userscripts (you can practically also use a userscript via uBO using `userResourcesLocation`).
+
+Useful userscripts examples:
+- [Twitch UI Cleaner](https://greasyfork.org/en/scripts/572852-twitch-ui-cleaner-no-ads) (combination of [TwitchAdSolutions](https://github.com/ryanbr/TwitchAdSolutions) and other blocking)
+- [YoutTube Sponsor Skipper](https://greasyfork.org/en/scripts/453320-simple-sponsor-skipper) (time saving)
 
 ### Password Manager [Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) - [Chrome](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 
