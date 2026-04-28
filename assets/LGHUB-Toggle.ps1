@@ -37,7 +37,6 @@ function nvmain {
             log "[+]" "Set start to manual" "LGHUBUpdaterService" -HighlightColor Green -SequenceColor DarkGray
             sasv -Name LGHUBUpdaterService | Out-Null
             log "[+]" "Started service" "LGHUBUpdaterService" -HighlightColor Green -SequenceColor DarkGray
-            pause
             sleep 1
             nvmain
         }
