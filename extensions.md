@@ -13,7 +13,7 @@ I use a private DNS server with several lists of [hagezi](https://github.com/hag
 Only needed whenever using userscripts (you can practically also use a userscript via uBO using `userResourcesLocation`).
 
 Useful userscripts examples:
-- [Twitch UI Cleaner](https://greasyfork.org/en/scripts/572852-twitch-ui-cleaner-no-ads) (combination of [TwitchAdSolutions](https://github.com/ryanbr/TwitchAdSolutions) and other blocking)
+- [TwitchAdSolutions](https://github.com/ryanbr/TwitchAdSolutions)
 - [YoutTube Sponsor Skipper](https://greasyfork.org/en/scripts/453320-simple-sponsor-skipper) (time saving)
 
 ### Password Manager [Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) - [Chrome](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
