@@ -1,9 +1,14 @@
 {
-  "timeStamp": 1774605232474,
-  "version": "1.70.1b2",
+  "timeStamp": 1776267286901,
+  "version": "1.70.0",
   "userSettings": {
     "advancedUserEnabled": true,
-    "importedLists": [],
+    "externalLists": "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt\nhttps://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt\nhttps://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt",
+    "importedLists": [
+      "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt",
+      "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt",
+      "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt"
+    ],
     "popupPanelSections": 31
   },
   "selectedFilterLists": [
@@ -22,7 +27,10 @@
     "easylist-newsletters",
     "easylist-notifications",
     "easylist-annoyances",
-    "ublock-annoyances"
+    "ublock-annoyances",
+    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-distracting.txt",
+    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-shorts.txt",
+    "https://raw.githubusercontent.com/brave/adblock-lists/refs/heads/master/brave-lists/yt-recommended.txt"
   ],
   "hiddenSettings": {
     "autoUpdateDelayAfterLaunch": 10

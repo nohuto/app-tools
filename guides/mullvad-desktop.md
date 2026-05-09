@@ -56,7 +56,7 @@ As said above the default configuration shouldn't be changed a lot, therefore I'
 
 ### Search
 
-See [search-engine](https://github.com/nohuto/app-tools/blob/main/search-engine.md).
+See [search-engine](https://www.noverse.dev/docs/app-tools/docs/search-engine/).
 
 ### Privacy & Security
 
@@ -77,7 +77,7 @@ See [search-engine](https://github.com/nohuto/app-tools/blob/main/search-engine.
 
 ### Extensions & [Themes](https://addons.mozilla.org/en-US/firefox/themes/)
 
-See [extensions](https://github.com/nohuto/app-tools/blob/main/extensions.md).
+See [extensions](https://www.noverse.dev/docs/app-tools/docs/extensions/).
 
 ## Flags
 
