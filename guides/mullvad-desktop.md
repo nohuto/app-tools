@@ -56,7 +56,7 @@ As said above the default configuration shouldn't be changed a lot, therefore I'
 
 ### Search
 
-See [search-engine](https://www.noverse.dev/docs/app-tools/docs/search-engine/).
+See [search-engine](https://noverse.dev/docs/app-tools/docs/search-engine/).
 
 ### Privacy & Security
 
@@ -73,11 +73,11 @@ See [search-engine](https://www.noverse.dev/docs/app-tools/docs/search-engine/).
 - Security
   - `Security Level`: Safest (breaks websites, if too much issues 'Safer')
   - `HTTPS-Only Mode`: Enable HTTPS-Only Mode in all windows
-  - `DNS over HTTPS`: Max Protection (I would recommend to use [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls#specifications)/[Quad9](https://quad9.net/news/blog/doh-with-quad9-dns-servers/#additional-information) or set up your own private DNS via [AdGuard](https://adguard-dns.io/) - see [win-config/network/encrypted-dns/#providers-compared](https://www.noverse.dev/docs/win-config/network/encrypted-dns/#providers-compared) & [win-config/network/encrypted-dns/#note-for-ios-users](https://www.noverse.dev/docs/win-config/network/encrypted-dns/#note-for-ios-users))
+  - `DNS over HTTPS`: Max Protection (I would recommend to use [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls#specifications)/[Quad9](https://quad9.net/news/blog/doh-with-quad9-dns-servers/#additional-information) or set up your own private DNS via [AdGuard](https://adguard-dns.io/) - see [win-config/network/encrypted-dns/#providers-compared](https://noverse.dev/docs/win-config/network/encrypted-dns/#providers-compared) & [win-config/network/encrypted-dns/#note-for-ios-users](https://noverse.dev/docs/win-config/network/encrypted-dns/#note-for-ios-users))
 
 ### Extensions & [Themes](https://addons.mozilla.org/en-US/firefox/themes/)
 
-See [extensions](https://www.noverse.dev/docs/app-tools/docs/extensions/).
+See [extensions](https://noverse.dev/docs/app-tools/docs/extensions/).
 
 ## Flags
 

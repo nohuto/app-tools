@@ -72,7 +72,7 @@ Click on the gear in a new tab to get to this part.
     - `Download history`: On
     - `Autofill form data`: On
 - Security
-  - `Use secure DNS`: On (I would recommend to use [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls#specifications)/[Quad9](https://quad9.net/news/blog/doh-with-quad9-dns-servers/#additional-information) or set up your own private DNS via [AdGuard](https://adguard-dns.io/) - see [win-config/network/encrypted-dns/#providers-compared](https://www.noverse.dev/docs/win-config/network/encrypted-dns/#providers-compared) & [win-config/network/encrypted-dns/#note-for-ios-users](https://www.noverse.dev/docs/win-config/network/encrypted-dns/#note-for-ios-users))
+  - `Use secure DNS`: On (I would recommend to use [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls#specifications)/[Quad9](https://quad9.net/news/blog/doh-with-quad9-dns-servers/#additional-information) or set up your own private DNS via [AdGuard](https://adguard-dns.io/) - see [win-config/network/encrypted-dns/#providers-compared](https://noverse.dev/docs/win-config/network/encrypted-dns/#providers-compared) & [win-config/network/encrypted-dns/#note-for-ios-users](https://noverse.dev/docs/win-config/network/encrypted-dns/#note-for-ios-users))
   - Manage JavaScript optimizations & security
     - `Don't allow sites to use JavaScript optimization`: On
 - Site and Shields Settings
@@ -116,15 +116,15 @@ Disable Brave's Web3 features if you don't use them.
 - `Improve search suggestions`: Off
 - `Web Discovery Project`: Off
 
-See [search-engine](https://www.noverse.dev/docs/app-tools/docs/search-engine/).
+See [search-engine](https://noverse.dev/docs/app-tools/docs/search-engine/).
 
 ### Extensions
 
-See [extensions](https://www.noverse.dev/docs/app-tools/docs/extensions/).
+See [extensions](https://noverse.dev/docs/app-tools/docs/extensions/).
 
 ### Autofill and passwords
 
-Don't use the built-in password manager, use a [passowrd manager extension](https://www.noverse.dev/docs/app-tools/docs/extensions/#password-manager-firefox---chrome) instead.
+Don't use the built-in password manager, use a [passowrd manager extension](https://noverse.dev/docs/app-tools/docs/extensions/#password-manager-firefox---chrome) instead.
 
 - Password Manager
   - Settings
