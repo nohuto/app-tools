@@ -47,13 +47,13 @@ It's also recommended to change some settings via the browser, to do so log in a
   - `Pregnancy and parenting`: Off
   - `Weight loss`: Off
 
-## [Automating App Configuration](https://github.com/nohuto/app-tools/blob/main/assets/Spotify-Config.ps1)
+## [Automating App Configuration](https://github.com/nohuto/app-guides/blob/main/assets/Spotify-Config.ps1)
 
 Spotify stores most desktop settings locally in the `prefs` files. Global app settings: `%APPDATA%\Spotify\prefs`, per-account settings: `%APPDATA%\Spotify\Users\<autologin.username>-user\prefs`.
 
 These settings aren't written down anywhere so I deciced to write them down to make it possible to automate the configuration.
 
-See [Spotify-Config.ps1](https://github.com/nohuto/app-tools/blob/main/assets/Spotify-Config.ps1) for a possible automated configuration. You can easily modify it adding/removing lines from `$user`/`$global` using the information below.
+See [Spotify-Config.ps1](https://github.com/nohuto/app-guides/blob/main/assets/Spotify-Config.ps1) for a possible automated configuration. You can easily modify it adding/removing lines from `$user`/`$global` using the information below.
 
 ### Global Settings
 

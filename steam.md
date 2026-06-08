@@ -84,15 +84,15 @@ Library -> `<game>` -> Properties.
 
 - General
   - `Enable the Steam Overlay while in-game`: Off
-  - `Launch Options`: See all listed [here](https://github.com/nohuto/app-tools/blob/main/assets/Steam-Commands.xlsx)
+  - `Launch Options`: See all listed [here](https://github.com/nohuto/app-guides/blob/main/assets/Steam-Commands.xlsx)
 - Controller
   - `Override for <game>`: Disable Steam Input
 
 ## Local Config Files
 
-[`Steam-Config.ps1`](https://github.com/nohuto/app-tools/blob/main/assets/Steam-Config.ps1) parses localconfig, then adds/edits the keys/blocks (a `.bak` file gets created in case you want to revert the changes). The order doesn't seem to be important means that the script adds missing keys/blocks to the buttom.
+[`Steam-Config.ps1`](https://github.com/nohuto/app-guides/blob/main/assets/Steam-Config.ps1) parses localconfig, then adds/edits the keys/blocks (a `.bak` file gets created in case you want to revert the changes). The order doesn't seem to be important means that the script adds missing keys/blocks to the buttom.
 
-You can edit the settings the script applies via `$settings`, to do so you need to know if a key is in the root block or if it's in a specific block. The script currently applies several settings which are listed in [#app-settings](https://noverse.dev/docs/app-tools/docs/guides/steam/#app-settings).
+You can edit the settings the script applies via `$settings`, to do so you need to know if a key is in the root block or if it's in a specific block. The script currently applies several settings which are listed in [#app-settings](https://noverse.dev/docs/app-guides/docs/guides/steam/#app-settings).
 
 - `C:\Program Files (x86)\Steam\config\config.vdf`
 - `C:\Program Files (x86)\Steam\config\loginusers.vdf`: stores users/login behaviours (offline mode, remember password, auto login, etc.)
@@ -100,7 +100,7 @@ You can edit the settings the script applies via `$settings`, to do so you need 
 - `C:\Program Files (x86)\Steam\userdata\<AccountID>\config\localconfig.vdf`: saves most steam settings
 - `C:\Program Files (x86)\Steam\userdata\<AccountID>\<AppID>\remote\sharedconfig.vdf`: saves per-app/SteamUI config (and toast settings)
 
-Means to automate the configuration we only use `localconfig.vdf`/`sharedconfig.vdf`. It's not possible to configure all settings from [#app-settings](https://noverse.dev/docs/app-tools/docs/guides/steam/#app-settings) via the local files/registry but some of them.
+Means to automate the configuration we only use `localconfig.vdf`/`sharedconfig.vdf`. It's not possible to configure all settings from [#app-settings](https://noverse.dev/docs/app-guides/docs/guides/steam/#app-settings) via the local files/registry but some of them.
 
 ## Steam CEF
 

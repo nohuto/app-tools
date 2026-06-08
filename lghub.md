@@ -18,7 +18,7 @@ There're two scenarios, first is that you only have a logitech mouse, if so use 
     - `Share my usage data`: Off
     - `Send error logs automatically when G HUB encounters issues`: Off
 
-## [LGHUB Toggle](https://github.com/nohuto/app-tools/blob/main/assets/LGHUB-Toggle.ps1)
+## [LGHUB Toggle](https://github.com/nohuto/app-guides/blob/main/assets/LGHUB-Toggle.ps1)
 
 Script which enables/disables the `LGHUBUpdaterService` service and other drivers. The `Enable LGHub` option only enables `LGHUBUpdaterService` since the other drivers aren't required for it to work.
 

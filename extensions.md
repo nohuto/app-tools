@@ -6,7 +6,7 @@ If you don't use uBO's functionality on a advanced way (only adding blocklists) 
 
 ### uBlock Origin - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - [Chrome](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?pli=1)
 
-I use a private DNS server with several lists of [hagezi](https://github.com/hagezi/dns-blocklists), therefore I've a minimal uBO blocklist set focusing on parts that can't be applied via DNS filtering, see my current uBO config [here](https://github.com/nohuto/app-tools/blob/main/assets/uBlock-Config.txt).
+I use a private DNS server with several lists of [hagezi](https://github.com/hagezi/dns-blocklists), therefore I've a minimal uBO blocklist set focusing on parts that can't be applied via DNS filtering, see my current uBO config [here](https://github.com/nohuto/app-guides/blob/main/assets/uBlock-Config.txt).
 
 ### Violentmonkey - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) - [Chrome](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 
