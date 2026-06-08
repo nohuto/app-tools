@@ -56,7 +56,7 @@ As said above the default configuration shouldn't be changed a lot, therefore I'
 
 ### Search
 
-See [search-engine](https://noverse.dev/docs/app-guides/docs/search-engine/).
+See [search-engine](https://noverse.dev/docs/app-guides/search-engine/).
 
 ### Privacy & Security
 
@@ -77,7 +77,7 @@ See [search-engine](https://noverse.dev/docs/app-guides/docs/search-engine/).
 
 ### Extensions & [Themes](https://addons.mozilla.org/en-US/firefox/themes/)
 
-See [extensions](https://noverse.dev/docs/app-guides/docs/extensions/).
+See [extensions](https://noverse.dev/docs/app-guides/extensions/).
 
 ## Flags
 
