@@ -18,9 +18,7 @@ Useful userscripts examples:
 
 ### Password Manager [Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) - [Chrome](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 
-You should never use built-in browser password managers, although they' easy to use, they're often not secure as they don't offer E2EE. Rather use for example [Bitwarden](https://bitwarden.com/).
-
-Read more about password managers [here](https://www.privacyguides.org/en/passwords/).
+You should never use built-in browser password managers, although they're easy to use, they're often not secure as they don't offer E2EE. Rather use for example [Bitwarden](https://bitwarden.com/).
 
 ### Dark Reader - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) - [Chrome](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
 

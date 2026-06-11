@@ -2,8 +2,6 @@
 
 I personally use [noai.duckduckgo](https://noai.duckduckgo.com/) (`https://noai.duckduckgo.com/search?q=%s`) everywhere. Other provider that seem to not collect your data are [Brave Search](https://search.brave.com/), [Startpage](https://www.startpage.com/), [Mojeek](https://www.mojeek.com/).
 
-See more details on search engines/metasearch engines in [privacyguides.org/search-engines](https://www.privacyguides.org/en/search-engines/).
-
 ## DuckDuckGo Configuration
 
 DuckDuckGo has several different versions of how their search engine works: [main](https://duckduckgo.com/), [lite](https://lite.duckduckgo.com) (non-JS), [html](https://html.duckduckgo.com) (non-JS), [noai](https://noai.duckduckgo.com/). I recommend to either use noai or html.
