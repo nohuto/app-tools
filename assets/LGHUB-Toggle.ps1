@@ -52,7 +52,7 @@ function nvmain {
             log "[+]" "Disabled" "logi_joy_vir_hid" -HighlightColor Green -SequenceColor DarkGray
             #sp -Path "HKLM:\SYSTEM\CurrentControlSet\Services\logi_lamparray_service" -Name Start -Value 4 | Out-Null
             #log "[+]" "Disabled service" "logi_lamparray_service" -HighlightColor Green -SequenceColor DarkGray
-            rp -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "LGHUB" | Out-Null
+            rp -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "LGHUB" -ErrorAction SilentlyContinue | Out-Null
             log "[+]" "Removed autostart" "LGHUB" -HighlightColor Green -SequenceColor DarkGray
             sleep 1
             nvmain
