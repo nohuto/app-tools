@@ -58,6 +58,8 @@ As said above the default configuration shouldn't be changed a lot, therefore I'
 
 See [search-engine](https://noverse.dev/docs/app-guides/search-engine/).
 
+- `Show search terms in the address bar on result pages`: Off
+
 ### Privacy & Security
 
 - Browser Privacy
